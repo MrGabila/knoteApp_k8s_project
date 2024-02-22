@@ -1,6 +1,6 @@
 ---
 AWSTemplateFormatVersion: '2010-09-09'
-Description: 'Amazon EKS Sample VPC - Private and Public subnets'
+Description: 'Networking Stack used to deploy EKS cluster. Creates VPC, IGW, 2 AZs(subnets,RT,NAT gateway)'
 
 Parameters:
 
